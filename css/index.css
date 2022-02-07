@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'Sofia Pro', sans-serif;                             
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media only screen and (max-width: 444px){
+
+    #landing-alert{
+        padding-top: 2px;
+        max-height: 34px;
+    }
+    
+    .landing-alert-div{
+        /* margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px; */
+        padding: 10px;
+        border-radius: unset;
+    }
+    .close-alert{
+        color : tomato !important;
+        margin-top: 19px !important;
+    }
+}
+
+
+@media only screen and (max-width: 444px){
+
+    .carousel-inner{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .carousel-images{
+        width: 350px;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .carousel-indicators > .active .carousel-indi{
+        color: none !important;
+    }
+    .carousel-indicators > .carousel-indi{
+        /* background-color: tomato !important; */
+        border-radius: 60%;
+        width: 10px;
+        position: relative;
+        top: 15px;
+    }
+}
+
+
+/*category *//*category */
+@media only screen and (max-width: 444px){
+    .category-1 > h5{
+        padding: 7px;
+        background-color: palegoldenrod;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .category-1 > h5 > a {
+        color: black !important;
+    }
+
+    .category-2 > h5{
+        padding: 7px;
+        background-color: rgb(152, 231, 152);
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .category-2 > h5 > a {
+        color: black !important;
+    }
+
+    .category-3 > h5{
+        padding: 7px;
+        background-color: rgb(185, 170, 238);
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .category-3 > h5 > a {
+        color: black !important;
+    }
+}
+/* END category *//*category */
+
+@media only screen and (max-width: 444px){
+    .dot {
+        background-color: red;
+        /* padding-top: -30px; */
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-1 {
+        background-color:fuchsia;
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-2 {
+        background-color: rgb(152, 231, 152);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-3 {
+        background-color: rgb(185, 170, 238);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-4 {
+        background-color: rgb(216, 128, 216);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-5 {
+        background-color: rgb(205, 243, 128);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-6 {
+        background-color: rgb(245, 186, 215);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+    .dot-7 {
+        background-color: rgb(230, 216, 137);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+    }
+}
+
+/* navigation-bar *//* navigation-bar */
+.navigation-bar{
+    /* background-color: rgb(247, 66, 66); */
+    background-color: #185ABD;
+    padding-top: 10px;
+    box-shadow: 0px 3px 3px rgba(165, 165, 165, 0.767);
+    padding-bottom: 0px;
+    /* position: fixed;
+    top: 0px;
+    z-index: 20; */
+}
+
+/* /* .fa-angle{
+    transform: rotate(0deg);
+} */
+
+.fa-angle{
+    transition: 0.3s ease-in;
+}
+
+/* .national-paragraph{
+    display: none;
+}
+.national-paragraph.open{
+    display: block;
+    color: #777777;
+    font-size: 14px;
+} */
+
+.fa-calendar-alt{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.719);
+    padding-top: 10px;
+}
+
+/* navigation-bar *//* navigation-bar */
+
+.today{
+    background-color: rgba(255, 255, 255, 0.808);
+    color: rgb(90, 85, 85);
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 40%;
+}
+.search-input{
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+.search-input::placeholder{
+    font-size: 15px;
+}
+
+#politics{
+    transition: all 2s ease-in;
+}
+
+.search-div{
+    font-size: 14px;
+}
+
+.privacy-policy{
+    color: black !important;
+}
